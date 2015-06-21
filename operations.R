@@ -1,0 +1,10 @@
+a<-c(2,2,3,2)
+A<-matrix(a,2,2)
+test1<-makeCacheMatrix(B)
+cacheSolve(test1)
+
+b<-c(-1,1,1.5,-1)
+B<-matrix(b,2,2)
+solve(B)
+test1$setinv(A)
+test1$getinv()
